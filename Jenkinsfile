@@ -12,7 +12,8 @@ pipeline {
         stage('Run Docker Image') {
             steps {
                 script {
-                    sh 'docker run -it --rm my-calculator'
+                    sh 'docker run --rm my-calculator'
+
                 }
             }
         }
