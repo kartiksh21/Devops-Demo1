@@ -12,9 +12,9 @@ def divide(a, b):
 
 if __name__ == "__main__":
     print("Simple Calculator")
-    a = float(input("Enter first number: "))
-    b = float(input("Enter second number: "))
-    op = input("Enter operator (+, -, *, /): ")
+    a = 15
+    b = 3
+    op = +
 
     if op == "+":
         print("Result:", add(a, b))
