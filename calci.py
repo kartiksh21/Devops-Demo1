@@ -14,7 +14,7 @@ if __name__ == "__main__":
     print("Simple Calculator")
     a = 15
     b = 3
-    op = +
+    op = "+"
 
     if op == "+":
         print("Result:", add(a, b))
